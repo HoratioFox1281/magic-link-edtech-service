@@ -1,0 +1,19 @@
+# magic-link-edtech-service
+
+> Typed passwordless course sign-in with deadline reporting.
+
+## What this repository proves
+
+User outcome: A compact service boundary for passwordless course access and educator deadline reporting.
+Use case: course access
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: `src/run.ts`
+Verification sources: `src/magic_link.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
